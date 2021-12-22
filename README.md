@@ -61,3 +61,5 @@ spider为进行爬虫的主程序，to_spider为其的调用
 将cookies复制下来，更换constant下对应的cookies值即可（注意cookies本身不是一个字符串，别忘最后开始和末尾加上单引号）
 
 
+
+testCloud文件是生成词云的文件
