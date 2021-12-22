@@ -12,7 +12,7 @@ from PIL import Image                   # 图片处理
 # 准备词云需要的词
 conn = sqlite3.connect("movie.db")
 cur = conn.cursor()
-sql = '''select introduction from movie250'''
+sql = '''select instroduction from movie250'''
 data = cur.execute(sql)
 text = ""
 for item in data:
@@ -32,7 +32,6 @@ img_array = np.array(img)   # 将图片转换为数组
 wc = WordCloud(
     background_color='white',
     mask=img_array,
-    font_path="方正北魏楷书繁体.ttf"        # C:\Windows\Fonts
 )
 wc.generate_from_text(string)
 
