@@ -22,13 +22,11 @@ PIL
 
 #### 项目截图
 
-![](https://raw.githubusercontent.com/sanxiadaba/myPic/master/img/799e96ec-4f40-4ec8-9e18-97c36ba3f3c4.png)
-
-![](https://raw.githubusercontent.com/sanxiadaba/myPic/master/img/0471a947-c237-4445-abac-3bb8133affb7.png)
-
-![](https://raw.githubusercontent.com/sanxiadaba/myPic/master/img/7af51bc9-9b08-45fe-95d0-85cf25564500.png)
-
-![](https://raw.githubusercontent.com/sanxiadaba/myPic/master/img/a86a007d-dad8-4fc1-b789-694632f4c340.png)
+![](./.img/douban主页面.png)
+![](./.img/词云.png)
+![](./.img/爬取列表.png)
+![](./.img/评分统计.png)
+![](./.img/excel表.png)
 
 
 
@@ -56,7 +54,7 @@ spider为进行爬虫的主程序，to_spider为其的调用
 
 找到对应页面
 
-![](https://raw.githubusercontent.com/sanxiadaba/myPic/master/img/TLUPA_XB_EV3EK%7B2%7DS%7BC5%5BN.png)
+![](./.img/设置cookies.png)
 
 将cookies复制下来，更换constant下对应的cookies值即可（注意cookies本身不是一个字符串，别忘最后开始和末尾加上单引号）
 
